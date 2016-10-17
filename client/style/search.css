@@ -4,6 +4,7 @@
   border: 1px solid #eee;
   outline: 0;
   font-size: 15px;
+  color: #000;
 }
 
 #search-result {
@@ -24,4 +25,11 @@
 
 .package .name {
   font-weight: 400;
+}
+input, select, textarea{
+    color: #ff0000;
+}
+
+textarea:focus, input:focus {
+    color: #ff0000;
 }

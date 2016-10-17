@@ -4,13 +4,13 @@ SearchSource.defineSource('posts', function(searchText, options) {
   if(searchText) {
     var regExp = buildRegExp(searchText);
     var selector = {$or: [
-      {packageName: regExp},
-      {description: regExp}
+      {title: regExp},
+      {content: regExp}
     ]};
     
-    return Packages.find(selector, options).fetch();
+    return Posts.find(selector, options).fetch();
   } else {
-    return Packages.find({}, options).fetch();
+    return Posts.find({}, options).fetch();
   }
 });
 

@@ -1,11 +1,10 @@
-
 var options = {
   keepHistory: 1000 * 60 * 5,
   localSearch: true
 };
-var fields = ['packageName', 'description'];
+var fields = ['title', 'content'];
 
-PackageSearch = new SearchSource('packages', fields, options);
+PackageSearch = new SearchSource('posts', fields, options);
 
 Template.searchResult.helpers({
   getPackages: function() {
