@@ -1,0 +1,24 @@
+<template name="searchBox">
+  <input type="text" id="search-box" placeholder="search packages here" />
+</template>
+
+<template name="searchResult">
+  <div id='search-result'>
+    <div id="search-meta">
+      {{#if isLoading}}
+        searching ...
+      {{/if}}
+    </div>
+
+    {{#each getPackages}}
+    <div class="package">
+      <h4 class="name">
+        <a href="{{git}}" target="_blank">{{{packageName}}}</a>
+      </h4>
+      <div class="description">
+        {{{description}}}
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</template>

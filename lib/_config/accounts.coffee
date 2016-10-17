@@ -15,7 +15,7 @@ AccountsTemplates.configure
   showForgotPasswordLink: true
   showLabels: true
   showPlaceholders: true
-  showResendVerificationEmailLink: false
+  showResendVerificationEmailLink: true
   
   # Client-side Validation
   continuousValidation: false

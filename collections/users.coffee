@@ -85,6 +85,3 @@ Meteor.users.attachSchema Schemas.User
 # Export schemas
 @StarterSchemas = Schemas
 
-Meteor.users.helpers
-  hasRole: (role) ->
-    @roles?.indexOf(role) > -1
