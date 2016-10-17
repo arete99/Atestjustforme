@@ -1,6 +1,6 @@
 #search-box {
   padding: 10px;
-  width: 600px;
+  max-width: 70%;
   border: 1px solid #eee;
   outline: 0;
   font-size: 15px;
@@ -18,9 +18,12 @@
 }
 
 .package {
-  width: 600px;
+  max-width: 70%;
   border-bottom: 1px solid #eee;
   padding: 8px 0;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .package .name {
