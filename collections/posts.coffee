@@ -12,11 +12,7 @@ Schemas.Posts = new SimpleSchema
 	
 	category:
 		type: String
-		optional: true
 	    allowedValues: Utils.categoryList
-	    autoform:
-	    	type:"select"
-	    	options: Utils.categoryList
 
 	location:
     type: String
