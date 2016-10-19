@@ -26,6 +26,16 @@
 
   loginRequired: ->
     Router.go '/sign-in'
+    
+  categoryList: [ 
+      "Wine"
+      "Hotel"
+      "Restaurant"
+      "Bar/Pub"
+      "Cinema"
+      "Monuments"
+      "Garage"
+    ]
 
   countryList: [
       "Select Country"

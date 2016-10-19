@@ -22,9 +22,12 @@
 				</div>
 				<div class="panel-body">
 					{{#autoForm id="add" collection="Posts" type="insert"}}
+					
+  					{{> afQuickField name="category"}}
 					{{> afQuickField name="title"}}
 					{{> afQuickField name="content"}}
 					{{> afQuickField name="picture"}}
+					{{> afQuickField name="location"}}
 					<button type="submit" class="btn btn-primary">{{_ "add_post_btn"}}</button>
 					{{/autoForm}}
 				</div>

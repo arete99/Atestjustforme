@@ -43,8 +43,8 @@
 
 
 	/*Dashboard*/
-	"add_post": "Add a Post",
-	"add_post_btn": "Add Post",
+	"add_post": "Add your Office",
+	"add_post_btn": "Add Office",
 	"add_post_modal": "Add with a modal",
 	"add_post_modal_btn": "Add a new post",
 	"edit_post": "Edit post",

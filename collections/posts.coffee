@@ -9,7 +9,24 @@ Schemas.Posts = new SimpleSchema
 		type: String
 		autoform:
 			rows: 5
+	
+	category:
+		type: String
+		optional: true
+	    allowedValues: Utils.categoryList
+	    autoform:
+	    	type:"select"
+	    	options: Utils.categoryList
 
+	location:
+    type: String
+    optional: true
+    autoform:
+      type: 'map'
+      geolocation: true
+      searchBox: true
+      autolocate: true
+	
 	createdAt:
 		type: Date
 		autoValue: ->

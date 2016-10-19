@@ -51,6 +51,7 @@ check@1.2.3
 cmather:handlebars-server@2.0.0
 coffeescript@1.2.4_2
 comments@0.1.0
+dandv:caret-position@2.1.1
 dburles:collection-helpers@1.0.4
 dburles:google-maps@1.1.5
 ddp@1.2.5
@@ -100,8 +101,10 @@ matb33:collection-hooks@0.8.4
 mdg:validation-error@0.5.1
 meteor@1.2.17_1
 meteor-base@1.0.4
+meteorhacks:async@1.0.0
 meteorhacks:inject-initial@1.0.4
 meteorhacks:meteorx@1.4.1
+meteorhacks:npm@1.5.0
 meteorhacks:picker@1.0.3
 meteorhacks:search-source@1.4.2
 meteorhacks:subs-manager@1.6.4
@@ -111,6 +114,7 @@ mfactory:admin-lte@0.0.2
 minifier-css@1.2.14_1
 minifier-js@1.2.14_1
 minimongo@1.0.17
+mizzao:autocomplete@0.5.1
 mobile-experience@1.0.4
 mobile-status-bar@1.0.12
 modules@0.7.6_1
@@ -127,6 +131,7 @@ multiply:iron-router-progress@1.0.2
 natestrauser:animate-css@3.5.1
 notifications@0.0.7
 npm-bcrypt@0.9.1_1
+npm-container@1.2.0
 npm-mongo@2.2.10_1
 oauth@1.1.11
 oauth1@1.1.10
