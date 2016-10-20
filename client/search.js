@@ -39,7 +39,7 @@ Template.searchBox.helpers({
   settings: function() {
     return {
       position: Session.get("position"),
-      limit: 10,
+      limit: 5,
       rules: [
         {
           // token: '',
