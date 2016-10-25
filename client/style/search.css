@@ -1,6 +1,6 @@
 #search-box {
   padding: 25px;
-  width: 700px;
+  width: 80%;
   border: 1px solid #eee;
   outline: 0;
   font-size: 15px;
@@ -8,6 +8,7 @@
   border-radius:5px;
   height: 45px;
   margin: auto;
+  background-image: ../public/searchicone.png;
 }
 
 #search-result {
@@ -40,25 +41,27 @@ textarea:focus, input:focus {
 }
 .-autocomplete-container {
     background: white;
-    margin-left: auto;
-    margin-right: auto;
+    width: 70%;
+    margin: auto;
     border: 1px solid #DDD;
-    border-radius: 3px;
+    border-radius: 4px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .-autocomplete-list {
     list-style: none;
-    margin: 15;
-    padding: 15;
+    width: 70%;
+    left: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .-autocomplete-item {
     display: block;
     color: #000;
     height: 25px;
-    width: 700px;
+    width: 70%;
     border-bottom: 1px solid #DDD;
 }
 
@@ -72,5 +75,4 @@ textarea:focus, input:focus {
     color: black;
     size: 25px;
     
-
 }
